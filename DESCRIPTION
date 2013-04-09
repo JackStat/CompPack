@@ -1,0 +1,14 @@
+Package: CompPack
+Type: Package
+Title: What the package does (short line)
+Version: 1.0
+Date: 2013-04-04
+Author: Who wrote it
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+Collate:
+    'wich.hill.R'
+    'rand.norm.R'
+    'rand.exp.R'
+    'rand.unif.R'
