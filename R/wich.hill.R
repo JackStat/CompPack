@@ -8,7 +8,7 @@ wich.hill <-
 function(){
 
 	if(sum(ls(all.names=TRUE)==".wh.seed")<1){
-		.wh.seed<<-as.numeric(Sys.time())/999:1001
+		.wh.seed<<-c(1,1,1)
 	}
 		
 
