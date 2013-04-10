@@ -9,9 +9,7 @@
 #" @export
 
 
-gold.sect <-
-function(f,lo,hi,tol=0.0000001)
-{
+gold.sect <- function(f,lo,hi,tol=0.0000001){
 	g = 1-(sqrt(5)-1)/2
 	h =	 hi
 	l = lo
