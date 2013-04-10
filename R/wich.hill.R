@@ -8,7 +8,7 @@ wich.hill <-
 function(){
 
 	if(sum(ls(all.names=TRUE)==".wh.seed")==0) 
-    .wh.seed=c(1,1,1)
+    .wh.seed<-c(1,1,1)
 
 		
 	.wh.seed[1]<<-171 * (.wh.seed[1] %% 30269) 
