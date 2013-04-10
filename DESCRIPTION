@@ -1,12 +1,12 @@
 Package: CompPack
 Type: Package
-Title: What the package does (short line)
+Title: Collection of Computational Statistic Tools
 Version: 1.0
-Date: 2013-04-04
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Date: 2013-04-10
+Author: Tyler Hunt
+Maintainer: Tyler Hunt <tyler@psychoanalytix.com>
+Description: The functions in this package were developed in a computational statistics course taught at the University of Utah.
+License: MIT
 Collate:
     'wich.hill.R'
     'rand.norm.R'
