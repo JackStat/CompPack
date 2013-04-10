@@ -12,3 +12,4 @@ Collate:
     'rand.norm.R'
     'rand.exp.R'
     'rand.unif.R'
+    'markov.chain.R'

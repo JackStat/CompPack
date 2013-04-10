@@ -1,3 +1,4 @@
+export(markov.chain)
 export(rand.exp)
 export(rand.norm)
 export(rand.unif)
