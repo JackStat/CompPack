@@ -19,6 +19,8 @@ A<-matrix(c(.9,.8,0,0,.1,.2,0,0,0,0,.5,.6,0,0,.5,.4), nrow=4)
  D<-matrix(c(.9,0,0,.1,.1,.9,0,0,0,.1,.9,0,0,0,.1,.9), nrow=4)
  markov.chain(A, 10)
  markov.chain(B, 10)
+ markov.chain(C, 10)
+ markov.chain(D, 10)
 }
 \author{
   Tyler Hunt \email{tyler@psychoanalytix.com}
