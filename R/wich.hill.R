@@ -7,7 +7,7 @@
 wich.hill <-
 function(){
 
-	if(sum(ls(all.names=TRUE)==".wh.seed")!=0){ 
+	if(!exists(".wh.seed")){ 
     .wh.seed<-c(1,1,1)
 	}
 		
