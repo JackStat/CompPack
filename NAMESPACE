@@ -1,6 +1,7 @@
 export(em.mixnorm)
 export(mc)
 export(mixnorm)
+export(mvrand.norm)
 export(newton.raph)
 export(plot.mc)
 export(rand.exp)

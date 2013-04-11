@@ -19,3 +19,4 @@ Collate:
     'mixnorm.R'
     'plot.mc.R'
     'mc.R'
+    'mvrand.norm.R'
