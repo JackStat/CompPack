@@ -16,3 +16,6 @@ Collate:
     'markov.chain.R'
     'gold.sect.R'
     'newton.raph.R'
+    'em.mixnorm.R'
+    'mixnorm.R'
+    'plot.mc.R'

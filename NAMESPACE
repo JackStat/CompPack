@@ -1,5 +1,8 @@
+export(em.mixnorm)
 export(markov.chain)
+export(mixnorm)
 export(newton.raph)
+export(plot.mc)
 export(rand.exp)
 export(rand.norm)
 export(rand.unif)

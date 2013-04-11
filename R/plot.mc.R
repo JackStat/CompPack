@@ -1,5 +1,6 @@
 #' Plot Markov Chains
 #' 
+#' @description A plotting method for markov chains.
 #' @param reps the number of replications
 #' @param prob the probability matrix
 #' 
@@ -15,6 +16,6 @@
 #' 
 #' @export
 
-plot.mc(reps, prob){
+plot.mc<-function(reps, prob){
   plot(1:reps, markov.chain(prob, reps), "l")
 }
