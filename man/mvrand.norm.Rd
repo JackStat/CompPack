@@ -12,8 +12,8 @@
   \item{sigma}{a variance-covariance matrix}
 }
 \description{
-  This method for generating random multivariate normal
-  data is based on a cholesky decomposition.
+  A method for generating random multivariate normal data
+  that is based on a cholesky decomposition.
 }
 \author{
   Tyler Hunt \email{tyler@psychoanalytix.com}

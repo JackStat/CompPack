@@ -20,3 +20,4 @@ Collate:
     'plot.mc.R'
     'mc.R'
     'mvrand.norm.R'
+    'tpower.R'
