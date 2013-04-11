@@ -1,5 +1,5 @@
 export(em.mixnorm)
-export(markov.chain)
+export(mc)
 export(mixnorm)
 export(newton.raph)
 export(plot.mc)

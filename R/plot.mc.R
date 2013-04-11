@@ -17,5 +17,5 @@
 #' @export
 
 plot.mc<-function(reps, prob){
-  plot(1:reps, markov.chain(prob, reps), "l")
+  plot(1:reps, mc(prob, reps), "l", xlab="Replications", ylab="Random Values")
 }

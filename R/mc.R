@@ -11,12 +11,13 @@
 #'  B<-matrix(rep(.3,16), nrow=4); diag(B)<-.1
 #'  C<-matrix(c(.9,0,0,0, .1,.9,0,0 ,0,.1,.8,.1, 0,0,.2,.9), nrow=4)
 #'  D<-matrix(c(.9,0,0,.1,.1,.9,0,0,0,.1,.9,0,0,0,.1,.9), nrow=4)
-#'  markov.chain(A, 10)
-#'  markov.chain(B, 10)
-#'  markov.chain(C, 10)
-#'  markov.chain(D, 10)
+#'  mc(A, 10)
+#'  mc(B, 10)
+#'  mc(C, 10)
+#'  mc(D, 10)
 #' @export
-  markov.chain<-function(p, n){
+  
+mc<-function(p, n){
     
     k<-nrow(p)
     start<-sample(1:k, 1)
