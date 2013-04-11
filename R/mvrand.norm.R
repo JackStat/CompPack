@@ -7,6 +7,11 @@
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
 #' 
+#' @examples
+#' sigma=matrix(rep(.5, 9), nrow=3)
+#' diag(sigma)<-1
+#' mvrand.norm(100, c(1,5,11), sigma)
+#' 
 #' @export
 
 mvrand.norm<-function(n, mu, sigma){
