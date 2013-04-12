@@ -1,8 +1,8 @@
-\name{mvrand.norm}
-\alias{mvrand.norm}
+\name{rand.mvnorm}
+\alias{rand.mvnorm}
 \title{Generate Multivariate Normal Distribution}
 \usage{
-  mvrand.norm(n, mu, sigma)
+  rand.mvnorm(n, mu, sigma)
 }
 \arguments{
   \item{n}{the number of observations}
@@ -18,7 +18,7 @@
 \examples{
 sigma=matrix(rep(.5, 9), nrow=3)
 diag(sigma)<-1
-mvrand.norm(100, c(1,5,11), sigma)
+rand.mvnorm(100, c(1,5,11), sigma)
 }
 \author{
   Tyler Hunt \email{tyler@psychoanalytix.com}
