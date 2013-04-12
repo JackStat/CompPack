@@ -1,4 +1,6 @@
 export(em.mixnorm)
+export(grid.sect)
+export(maxbound)
 export(mc)
 export(mixnorm)
 export(mvrand.norm)

@@ -5,7 +5,7 @@
   wich.hill()
 }
 \description{
-  hi
+  The Wichmann-Hill has a cycle length of \eqn{6.9536e12}.
 }
 \examples{
 replicate(10,wich.hill())

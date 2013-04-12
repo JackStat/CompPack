@@ -1,6 +1,6 @@
 #' Wichman-Hill Random Number Generator
 #' 
-#' @description hi
+#' @description The Wichmann-Hill has a cycle length of \eqn{6.9536e12}.
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com} 
 #' 

@@ -21,3 +21,5 @@ Collate:
     'mc.R'
     'mvrand.norm.R'
     'tpower.R'
+    'grid.sect.R'
+    'maxbound.R'
