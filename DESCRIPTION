@@ -23,3 +23,4 @@ Collate:
     'tpower.R'
     'grid.sect.R'
     'maxbound.R'
+    'update.CompPack.R'
