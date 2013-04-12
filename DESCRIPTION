@@ -21,3 +21,4 @@ Collate:
     'mc.R'
     'mvrand.norm.R'
     'tpower.R'
+    'RcppExports.R'

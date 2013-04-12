@@ -11,7 +11,7 @@
 #'  
 #'  @examples
 #'  replicate(10,wich.hill())
-#'  
+#'
 #' @export
 
 wich.hill <-
@@ -25,6 +25,6 @@ function(){
 	.wh.seed[2]<<-172 * (.wh.seed[2] %% 30307) 
 	.wh.seed[3]<<-170 * (.wh.seed[3] %% 30323)
 	
-	x<- (.wh.seed[1] / 30269) + (.wh.seed[2] / 30307) + (.wh.seed[3] / 30323)
+	x <- (.wh.seed[1] / 30269) + (.wh.seed[2] / 30307) + (.wh.seed[3] / 30323)
 	x - floor(x)
 }
