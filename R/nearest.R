@@ -1,9 +1,9 @@
-#' Find Nearest Value
+#' Find Location of Nearest Value
 #' 
-#' @description Find the nearest value to a number that you specify.
+#' @description Find the location of the nearest value to a number that you specify.
 #' 
-#' @param x a vector or matrix
-#' @param value the value you want
+#' @param x a vector or matrix.
+#' @param value the value that you want to find.
 #' 
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com} 
