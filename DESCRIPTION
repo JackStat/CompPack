@@ -26,3 +26,4 @@ Collate:
     'wich.hill.R'
     'pois.proc.R'
     'nearest.R'
+    'around.R'

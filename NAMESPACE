@@ -1,3 +1,4 @@
+export(around)
 export(em.mixnorm)
 export(grid.sect)
 export(maxbound)
