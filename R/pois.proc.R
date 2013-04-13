@@ -14,6 +14,3 @@ pois.proc <- function(end=200, rate=1){
   }
   cumsum(mm[-length(mm)])
 }
-
-
-mm<-replicate(100,max(cumsum(rand.exp(250))))
