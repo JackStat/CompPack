@@ -25,3 +25,4 @@ Collate:
     'update.CompPack.R'
     'wich.hill.R'
     'pois.proc.R'
+    'nearest.R'
