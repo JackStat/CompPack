@@ -4,6 +4,8 @@
 #' @param rate the rate of occurrence.
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com} 
+#' 
+#' @examples pois.proc(200, 1)
 #' @export
 
 pois.proc <- function(end=200, rate=1){
