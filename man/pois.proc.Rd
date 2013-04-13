@@ -12,6 +12,9 @@
 \description{
   Generate a Poisson Process
 }
+\examples{
+pois.proc(200, 1)
+}
 \author{
   Tyler Hunt \email{tyler@psychoanalytix.com}
 }
