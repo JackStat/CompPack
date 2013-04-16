@@ -10,13 +10,13 @@
 
 around<-function(x, value){
   x<-sort(x)
-  lo<-x[nearest(x, value)]
+  lo<-x[nearest.loc(x, value)]
   if(lo>=value)
-    lo<-x[nearest(x, value)-1]
+    lo<-x[nearest.loc(x, value)-1]
   
-  hi<-x[nearest(x, value)]
+  hi<-x[nearest.loc(x, value)]
   if(hi<value)
-    hi<-x[nearest(x, value)+1]
+    hi<-x[nearest.loc(x, value)+1]
   
   c(lo, hi)
 }

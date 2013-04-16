@@ -27,3 +27,4 @@ Collate:
     'pois.proc.R'
     'nearest.R'
     'around.R'
+    'nearest.loc.R'
