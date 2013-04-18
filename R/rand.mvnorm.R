@@ -18,8 +18,8 @@ rand.mvnorm<-function(n, mu, sigma){
   k<-length(mu)
   vs<-matrix(rep(NA, k*n), ncol=k)
   for(i in 1:n){
-    vs[i,]<-rnorm(k,mu,1)
-    vs[i,]<-t(chol(sigma))%*%vs[i,]
+    vs[i,]<-rnorm(k,1)
+    vs[i,]<-t(chol(sigma))%*%vs[i,]+mu
   }
   vs
 }
