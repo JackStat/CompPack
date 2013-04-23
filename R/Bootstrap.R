@@ -1,5 +1,8 @@
 #' Bootstrap
 #' 
+#' @description
+#' This function is used for estimating standard errors when the distribution is not know.
+#' 
 #' @param x a vector.
 #' @param Boots The number of bootstraps.
 #' @param fn the function you want to bootstrap.
