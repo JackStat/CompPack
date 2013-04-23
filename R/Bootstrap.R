@@ -1,8 +1,8 @@
 #' Bootstrap
 #' 
 #' @param x a vector.
-#' @param Boots The number of bootstraps
-#' @param fn the function you want to bootstrap
+#' @param Boots The number of bootstraps.
+#' @param fn the function you want to bootstrap.
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
 #' 
