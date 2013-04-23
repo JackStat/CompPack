@@ -1,3 +1,4 @@
+export(Bootstrap)
 export(around)
 export(em.mixnorm)
 export(grid.sect)
