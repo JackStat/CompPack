@@ -1,6 +1,6 @@
 #' Generate a Poisson Process
 #' 
-#' @param end the end time.
+#' @param end the end time desired.
 #' @param rate the rate of occurrence.
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com} 
