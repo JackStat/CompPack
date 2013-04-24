@@ -1,8 +1,8 @@
 #' Generate Random Uniform Variables
 #' 
-#' @param n Number of observations
-#' @param min lower limit of the distribution
-#' @param max upper limit of the distribution
+#' @param n Number of observations.
+#' @param min lower limit of the distribution.
+#' @param max upper limit of the distribution.
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
 #' 
