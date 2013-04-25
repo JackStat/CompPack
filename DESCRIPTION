@@ -28,3 +28,4 @@ Collate:
     'nearest.R'
     'around.R'
     'nearest.loc.R'
+    'Bootstrap.R'

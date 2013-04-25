@@ -2,7 +2,7 @@
 #' 
 #' @description Find the location of values around a specified value
 #' 
-#' @param x a vector, matrix, or data frame.
+#' @param x a vector.
 #' @param value specified value
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com} 

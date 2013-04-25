@@ -1,8 +1,8 @@
 #' Maxbound Optimization
 #' 
 #' @param f the function to be optimized
-#' @param lo the lower bound
-#' @param hi the upper bound
+#' @param lo the lower bound.
+#' @param hi the upper bound.
 #' 
 #' @export
 

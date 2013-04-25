@@ -5,7 +5,7 @@
   around(x, value)
 }
 \arguments{
-  \item{x}{a vector, matrix, or data frame.}
+  \item{x}{a vector.}
 
   \item{value}{specified value}
 }
