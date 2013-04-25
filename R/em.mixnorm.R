@@ -5,6 +5,7 @@
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
 #' @export
+
 em.mixnorm <-
 function (x,k){
 	p = rep(1/k,k)
