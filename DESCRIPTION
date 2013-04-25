@@ -29,3 +29,4 @@ Collate:
     'around.R'
     'nearest.loc.R'
     'Bootstrap.R'
+    'polar.norm.R'

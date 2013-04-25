@@ -5,7 +5,7 @@
   pois.proc(end = 200, rate = 1)
 }
 \arguments{
-  \item{end}{the end time.}
+  \item{end}{the end time desired.}
 
   \item{rate}{the rate of occurrence.}
 }

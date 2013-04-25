@@ -2,7 +2,7 @@
 #' 
 #' @description A method for generating a random normal variable based upon the polar method.
 #' @param mu mean of a normal distribution
-#' @param sigma variance of a normal distribution
+#' @param sig variance of a normal distribution
 #' 
 #' @author Damon McCafferty \email{damon.mccafferty@@economics.utah.edu}
 #' 
