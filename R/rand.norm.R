@@ -1,14 +1,27 @@
-#' Generate Random Normal Variables
+#' Generate A Random Normal Variable
 #' 
-#' @description 
-#' @param n Number of observations
-#' @param mean vector of means
-#' @param sd vector of standard deviations
+#' @description A method for generating a random normal variable based upon the polar method.
+#' @param mu mean of a normal distribution
+#' @param sigma variance of a normal distribution
 #' 
-#' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
+#' @author Damon McCafferty \email{damon.mccafferty@@economics.utah.edu}
 #' 
 #' @export
 
-rand.norm<-function(n, mean, sd){
-  qnorm( replicate( n, wich.hill() ) )*sd + mean
+function(mu,sig)
+{
+  
+  u<-(2*wich.hill()-1)
+  v<-(2*wich.hill()-1)
+  
+  s<-u^2+v^2
+  
+  while(s==0||s>=1)
+  {
+    u<-(2*wich.hill()-1)
+    v<-(2*wich.hill()-1)
+    
+    s<-u^2+v^2 
+  }
+  sig*sqrt(-2*log(s)/s)*u + mu    
 }
