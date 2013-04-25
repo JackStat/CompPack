@@ -1,5 +1,6 @@
 #' Generate Random Normal Variables
 #' 
+#' @description 
 #' @param n Number of observations
 #' @param mean vector of means
 #' @param sd vector of standard deviations
