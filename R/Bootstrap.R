@@ -5,9 +5,13 @@
 #' 
 #' @param x a vector.
 #' @param Boots The number of bootstraps.
-#' @param fn the function you want to bootstrap.
+#' @param fn the function you want to bootstrap, ie., mean, var, cov, etc.
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
+#' 
+#' @examples
+#' x = runif(10, 0, 1)
+#' Bootstrap(x,fn=mean)
 #' 
 #' @export
 
