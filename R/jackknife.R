@@ -14,7 +14,7 @@
 #' 
 #' @author Damon McCafferty \email{damon.mccafferty@@economics.utah.edu}
 #' 
-#' @example x = runif(10, 0, 1)
+#' @examples x = runif(10, 0, 1)
 #' mean(x)
 #' jackknife(x,mean)
 #' 
