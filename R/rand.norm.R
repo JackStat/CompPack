@@ -11,15 +11,15 @@
 function(mu,sig)
 {
   
-  u<-(2*wichmannhill()-1)
-  v<-(2*wichmannhill()-1)
+  u<-(2*wich.hill()-1)
+  v<-(2*wich.hill()-1)
   
   s<-u^2+v^2
   
   while(s==0||s>=1)
   {
-    u<-(2*wichmannhill()-1)
-    v<-(2*wichmannhill()-1)
+    u<-(2*wich.hill()-1)
+    v<-(2*wich.hill()-1)
     
     s<-u^2+v^2 
   }
