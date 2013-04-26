@@ -4,7 +4,14 @@
 #' @param lo Lower estimate
 #' @param hi Upper estimate
 #' @param tol Level of tolerance desired for optimization
+#' 
+#' @return a estimated optimal value of the function
+#' @return f(a) function value at the optimal value
 #'
+#' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
+#' 
+#' @examples
+#' gold.sect(sin, 1/2, pi/2)
 #'
 #" @export
 
