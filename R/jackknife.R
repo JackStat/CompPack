@@ -1,7 +1,7 @@
 #' Resamples Data using the Jackknife Method
 #' 
 #' @description 
-#' This function is used for estimating standard errors when the distribution is not know.
+#' a resampling method that can be used to estimate the bias and variance when a random sample of observations is used.
 #'  
 #' @param x a vector
 #' @param t estimation of parameter
