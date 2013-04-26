@@ -1,4 +1,7 @@
 #' EM-Algorithm for Normal Distribution
+#' 
+#' @description
+#' The Expectation-Maximization A
 #'
 #' @param x the data.
 #' @param k estimate of the number of mixtures.
