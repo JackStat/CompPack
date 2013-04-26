@@ -16,7 +16,7 @@
 #' 
 #' @export
 
-df <- function(f,x)
+d1f <- function(f,x)
 {
   d=0.0000001
   (f(x-d)-f(x))/d  
