@@ -17,14 +17,14 @@
 #' @export
 
 
-newton.raph <- function(f, df, d2f, start, tol=0.000001){
+newton.raph <- function(f, d1f, d2f, start, tol=0.000001){
   
   new <- start + 10*tol
   iter <- 0
   while(abs(start - new) > tol){
     iter <- iter+1
     new <- start
-    start <- start - df(start)/d2f(start)
+    start <- start - d1f(start)/d2f(start)
   }
   result<-c(Estimate=start, Iterations=iter, Likelihood=f(start))
   return(result)
