@@ -1,8 +1,14 @@
 #' Grid Section Search Optimization
 #' 
+#' @description method of numerical optimization which uses a simple learning algorythm that compares two points of a function. The lower of the two points is discarded, then adjusted and re-evaluated. The process is repeated until an optimum is located. 
+#' 
 #' @param f the function to be optimized
 #' @param lo the lower bound
 #' @param hi the upper bound
+#' 
+#' @return X[i] estimated maximum of the function
+#' 
+#' @author 
 #' 
 #' @export
 
