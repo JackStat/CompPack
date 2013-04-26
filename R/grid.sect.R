@@ -6,9 +6,7 @@
 #' @param lo the lower bound
 #' @param hi the upper bound
 #' 
-#' @return X[i] estimated maximum of the function
-#' 
-#' @author 
+#' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
 #' 
 #' @export
 
