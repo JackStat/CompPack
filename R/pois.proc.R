@@ -1,9 +1,14 @@
 #' Generate a Poisson Process
 #' 
+#' @description
+#' Generates a Poisson Process.
+#' 
 #' @param end the end time desired.
 #' @param rate the rate of occurrence.
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com} 
+#' 
+#' @results cumsum the cumulative sum of the vector of a poisson process.
 #' 
 #' @examples pois.proc(200, 1)
 #' @export
