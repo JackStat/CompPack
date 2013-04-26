@@ -3,7 +3,17 @@
 #' @param x the data.
 #' @param k estimate of the number of mixtures.
 #' 
+#' @return itterations number of cycles the program used to calculate the estimated means, standard devaitions and probabilities.
+#' @return means estimated mean of each mixture.
+#' @return stddevs estimated standard deviation of each mixture.
+#' @return probs estimated probabilities of each mixture.
+#' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
+#' 
+#' @examples
+#' x=mixnorm(100, c(.50, .15, .35), c(-3, 0, 3), c(3,3,3))
+#' em.mixnorm(x,3)
+#' 
 #' @export
 
 em.mixnorm <-

@@ -4,6 +4,15 @@
 #' @param lo the lower bound.
 #' @param hi the upper bound.
 #' 
+#' @return lo lower bound estimate of the function's optimum
+#' @return hi upper bound estimate of the function's optimum
+#' 
+#' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
+#' 
+#' @examples
+#' maxbound(sin, 1/2, pi/2)
+#' 
+#' 
 #' @export
 
 maxbound <-
