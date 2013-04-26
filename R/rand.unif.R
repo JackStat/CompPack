@@ -1,5 +1,8 @@
 #' Generate Random Uniform Variables
 #' 
+#' @description
+#' Generates pseudo-random variables from a Uniform distribution, using the Wichmannhill.
+#' 
 #' @param n Number of observations.
 #' @param min lower limit of the distribution.
 #' @param max upper limit of the distribution.

@@ -1,4 +1,7 @@
 #' Golden Section Search Optimization
+#' 
+#' @description 
+#' A method used for locating the optimum value of a function. The technique utilizes the golden ratio to successively narrow the range of values for which the optimum is found.
 #'
 #' @param f The function to be optimized
 #' @param lo Lower estimate

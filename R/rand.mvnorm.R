@@ -1,9 +1,9 @@
 #' Generate Multivariate Normal Distribution
 #' 
-#' @description A method for generating random multivariate normal data that is based on a cholesky decomposition.
-#' @param n the number of observations
-#' @param mu a vector of means
-#' @param sigma a variance-covariance matrix
+#' @description A method for generating a pseudo-random multivariate normal data that is based on a cholesky decomposition.
+#' @param n the number of observations.
+#' @param mu a vector of means.
+#' @param sigma a variance-covariance matrix.
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
 #' 

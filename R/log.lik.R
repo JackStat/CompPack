@@ -3,9 +3,9 @@
 #' @description 
 #' Find the logliklihood of a normal distribution.
 #' 
-#' @param x data
-#' @param mu estimated mean
-#' @param var estimated variance
+#' @param x data.
+#' @param mu estimated mean.
+#' @param var estimated variance.
 #' 
 #' @author Damon McCafferty \email{damon.mccafferty@@economics.utah.edu} 
 #' 
