@@ -13,7 +13,18 @@
 
   \item{tol}{Level of tolerance desired for optimization}
 }
+\value{
+  a estimated optimal value of the function
+
+  f(a) function value at the optimal value
+}
 \description{
   Golden Section Search Optimization
+}
+\examples{
+gold.sect(sin, 1/2, pi/2)
+}
+\author{
+  Tyler Hunt \email{tyler@psychoanalytix.com}
 }
 

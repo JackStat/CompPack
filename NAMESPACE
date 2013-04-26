@@ -1,6 +1,7 @@
 export(Bootstrap)
 export(around)
 export(em.mixnorm)
+export(gold.sect)
 export(grid.sect)
 export(jackknife)
 export(maxbound)

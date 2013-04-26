@@ -13,8 +13,7 @@
 #' @examples
 #' gold.sect(sin, 1/2, pi/2)
 #'
-#" @export
-
+#' @export
 
 gold.sect <- function(f,lo,hi,tol=0.0000001){
 	g = 1-(sqrt(5)-1)/2
