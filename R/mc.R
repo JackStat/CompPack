@@ -1,10 +1,8 @@
 #' Generate Markov Chains
 #' 
-#' @description
-#' generates a markov chain.
 #' 
-#' @param p Probability matrix.
-#' @param n Number of observations.
+#' @param p Probability matrix
+#' @param n Number of observations
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
 #' 
