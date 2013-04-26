@@ -1,14 +1,11 @@
 #' Maxbound Optimization
 #' 
-#' @description
-#' Obtains estimations of the lower and upper bounds to a function's optimum point.
-#' 
-#' @param f the function to be optimized.
+#' @param f the function to be optimized
 #' @param lo the lower bound.
 #' @param hi the upper bound.
 #' 
-#' @return lo lower bound estimate of the function's optimum.
-#' @return hi upper bound estimate of the function's optimum.
+#' @return lo lower bound estimate of the function's optimum
+#' @return hi upper bound estimate of the function's optimum
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
 #' 

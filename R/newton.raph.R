@@ -1,13 +1,11 @@
 #' Newton Raphson Alogorithm
 #' 
-#' @description
-#' A method for locating succesively better approximations for the optimal point of a function. The Newton Raphson method is named after Sir Issac Newton and Joseph Raphson
-#' 
 #' @param f The function that you want to optimize.
 #' @param df the 1st derivative of the function.
 #' @param d2f the 2nd derivative of the function.
 #' @param start The starting value for optimization.
 #' @param tol The level of tolerance desired for convergence.
+#' 
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
 #' @export

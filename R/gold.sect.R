@@ -1,6 +1,4 @@
 #' Golden Section Search Optimization
-#' 
-#' @description the golden section search is a technique for finding the extremum (minimum or maximum) of a strictly unimodal function by using the golden ratio to successively narrow the range of values inside which the extremum is known to exist.
 #'
 #' @param f The function to be optimized
 #' @param lo Lower estimate
