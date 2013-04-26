@@ -1,8 +1,12 @@
 #' Generate Markov Chains
 #' 
+#' @description
+#' Generates a Markov Chain.
 #' 
-#' @param p Probability matrix
-#' @param n Number of observations
+#' @param p Probability matrix.
+#' @param n Number of observations.
+#' 
+#' @return x values of observations.
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
 #' 
@@ -15,6 +19,7 @@
 #'  mc(B, 10)
 #'  mc(C, 10)
 #'  mc(D, 10)
+#'  
 #' @export
   
 mc<-function(p, n){

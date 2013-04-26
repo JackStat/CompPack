@@ -1,9 +1,12 @@
 #' Create a Mixture of Normal Distributions
+#' 
+#' @description
+#' Creates a mixture of normal distributions.
 #'
-#' @param n number of observations. If \eqn{length(n) > 1}, the length is taken to be the number required
-#' @param p vector of probabilities
-#' @param mu vector of means
-#' @param sd vector of standard deviations
+#' @param n number of observations. If \eqn{length(n) > 1}, the length is taken to be the number required.
+#' @param p vector of probabilities.
+#' @param mu vector of means.
+#' @param sd vector of standard deviations.
 #'
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
 #' 
