@@ -6,6 +6,11 @@
 #' @param sd vector of standard deviations
 #'
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
+#' 
+#' @examples
+#' x = mixnorm(100, c(.50, .15, .35), c(-3, 0, 3), c(3,3,3))
+#' hist(x)
+#' 
 #' @export
 
 mixnorm <-
