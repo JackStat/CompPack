@@ -1,11 +1,14 @@
 #' Maxbound Optimization
 #' 
-#' @param f the function to be optimized
+#' @description
+#' Used to estimate the bounds of a function, in which the optimum value will be located within.
+#' 
+#' @param f the function to be optimized.
 #' @param lo the lower bound.
 #' @param hi the upper bound.
 #' 
-#' @return lo lower bound estimate of the function's optimum
-#' @return hi upper bound estimate of the function's optimum
+#' @return lo lower bound estimate of the function's optimum.
+#' @return hi upper bound estimate of the function's optimum.
 #' 
 #' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
 #' 
