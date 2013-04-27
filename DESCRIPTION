@@ -31,3 +31,7 @@ Collate:
     'Bootstrap.R'
     'polar.norm.R'
     'jackknife.R'
+    '2dranduphill.R'
+    'd1f.R'
+    'd2f.R'
+    'log.lik.R'
