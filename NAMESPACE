@@ -1,4 +1,5 @@
 export(Bootstrap)
+export(anneal)
 export(around)
 export(d1f)
 export(df)
