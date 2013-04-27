@@ -36,3 +36,4 @@ Collate:
     'd2f.R'
     'log.lik.R'
     'anneal.R'
+    'uphill.mixnorm.R'
