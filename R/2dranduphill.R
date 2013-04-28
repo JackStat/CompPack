@@ -13,7 +13,7 @@
 #' @example
 #' randuphill()
 #' 
-#' @author Ernest Chan \email{faiernest418@gmail.com}
+#' @author Ernest Chan \email{faiernest418@@gmail.com}
 #' 
 #' @export
 

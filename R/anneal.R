@@ -1,13 +1,13 @@
 #' anneal
 #' @description
-#' something for now
+#' General anneal function, where we conduct a uphill search on the function to find maximum
 #' 
-#' @param f
-#' @param mu
-#' @param n
-#' @param sig
-#' @param tt
-#' @param g
+#' @param f function vector to find the maximum
+#' @param mu starting point
+#' @param n number of iterations
+#' @param sig size of steps
+#' @param tt temperature
+#' @param g rate of temperature
 #' 
 #' @example
 #' annel()
