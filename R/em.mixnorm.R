@@ -1,4 +1,7 @@
 #' EM-Algorithm for Normal Distribution
+#' 
+#' @description
+#' The Expectation-Maximization (EM) algorithm is and itterative method for locating the maximum estimate for the parameters of a mixture of normal distributions. The EM iteration alternates between performing an expectation (E) step, which creates a function for the expectation of the log-likelihood evaluated using the current estimate for the parameters, and a maximization (M) step, which computes parameters maximizing the expected log-likelihood found on the E step. These parameter-estimates 
 #'
 #' @param x the data.
 #' @param k estimate of the number of mixtures.

@@ -1,8 +1,13 @@
 #' Grid Section Search Optimization
 #' 
-#' @param f the function to be optimized
-#' @param lo the lower bound
-#' @param hi the upper bound
+#' @description
+#' A method used to locate the optimum value of a function. 
+#' 
+#' @param f the function to be optimized.
+#' @param lo the lower bound.
+#' @param hi the upper bound.
+#' 
+#' @author Tyler Hunt \email{tyler@@psychoanalytix.com}
 #' 
 #' @export
 

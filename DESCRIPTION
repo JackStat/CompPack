@@ -31,6 +31,16 @@ Collate:
     'Bootstrap.R'
     'polar.norm.R'
     'jackknife.R'
+<<<<<<< HEAD
     'pois.int.R'
     'pois.rate.R'
     'rand.weib.R'
+=======
+    'd1f.R'
+    'd2f.R'
+    'log.lik.R'
+    'anneal.R'
+    'uphill.mixnorm.R'
+    'twodranduphill.R'
+    'mixlike.R'
+>>>>>>> 72ae3e5c0dc4c43e0c46577ad8f2a4f1363a0657
