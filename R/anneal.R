@@ -1,4 +1,5 @@
 #' anneal
+#' 
 #' @description
 #' General anneal function, where we conduct a uphill search on the function to find maximum
 #' 
@@ -10,13 +11,12 @@
 #' @param g rate of temperature
 #' 
 #' @example
-#' annel()
+#' anneal()
 #' @author Ernest Chan \email{faiernest418@@gmail.com}
 #' 
 #' @export
 
-
-anneal=function(f,mu,n=1000,sig=1,tt=10,g=0.999)
+anneal = function(f,mu,n=1000,sig=1,tt=10,g=0.999)
 {
 	m = mu
 	fm = f(m)
