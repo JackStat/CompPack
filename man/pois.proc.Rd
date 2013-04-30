@@ -1,21 +1,22 @@
 \name{pois.proc}
 \alias{pois.proc}
-\title{Generate a Poisson Process}
+\title{pois.proc}
 \usage{
-  pois.proc(end = 200, rate = 1)
+  pois.proc(time, r)
 }
 \arguments{
-  \item{end}{the end time desired.}
+  \item{time}{is the total time.}
 
-  \item{rate}{the rate of occurrence.}
+  \item{r}{is the average number of events.}
 }
 \description{
-  Generate a Poisson Process
+  Simulates a Poisson process of specified length and rate.
+  The output is the time at which each event occured.
 }
 \examples{
-pois.proc(200, 1)
+pois.proc(100,5)
 }
 \author{
-  Tyler Hunt \email{tyler@psychoanalytix.com}
+  Katie Dodds \email{k.dodds@utah.edu}
 }
 

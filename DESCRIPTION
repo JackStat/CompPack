@@ -31,3 +31,6 @@ Collate:
     'Bootstrap.R'
     'polar.norm.R'
     'jackknife.R'
+    'pois.int.R'
+    'pois.rate.R'
+    'rand.weib.R'
