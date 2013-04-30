@@ -37,3 +37,4 @@ Collate:
     'anneal.R'
     'uphill.mixnorm.R'
     'twodranduphill.R'
+    'mixlike.R'
