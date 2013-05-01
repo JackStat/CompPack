@@ -41,3 +41,4 @@ Collate:
     'uphill.mixnorm.R'
     'twodranduphill.R'
     'mixlike.R'
+    'f.models.R'
