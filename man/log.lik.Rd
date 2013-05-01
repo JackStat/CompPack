@@ -12,10 +12,10 @@
   \item{var}{estimated variance.}
 }
 \value{
-  -ll logliklihood of the distribution
+  ll logliklihood of the distribution
 }
 \description{
-  Find the logliklihood of a normal distribution.
+  Find the log likelihood of a normal distribution.
 }
 \examples{
 x = rnorm(100, 3, 7)

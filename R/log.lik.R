@@ -9,7 +9,7 @@
 #' 
 #' @author Damon McCafferty \email{damon.mccafferty@@economics.utah.edu} 
 #' 
-#' @return -ll logliklihood of the distribution
+#' @return ll logliklihood of the distribution
 #' 
 #' @examples
 #' x = rnorm(100, 3, 7)
