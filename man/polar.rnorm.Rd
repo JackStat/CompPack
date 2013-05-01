@@ -15,7 +15,7 @@
   Generates a sample of standard normals
 }
 \examples{
-polar.rnorm(1000)
+polar.rnorm(100)
 }
 \author{
   Katie Dodds \email{k.dodds@utah.edu} Damon McCafferty

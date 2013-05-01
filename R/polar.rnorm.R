@@ -12,7 +12,7 @@
 #'
 #' @examples
 #'
-#' polar.rnorm(1000) 
+#' polar.rnorm(100) 
 #' 
 #' @export
 
