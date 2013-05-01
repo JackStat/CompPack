@@ -1,7 +1,7 @@
-#' cos(x) + cos(y)
+#' exp(-(x+y))
 #' 
 #' @description 
-#' Generate cos(x) + cos(y) maxtrix
+#' Generate exp(-(x+y) maxtrix
 #' 
 #' @param x vector of value
 #' @param y vector of value
@@ -18,7 +18,7 @@ twodfunction = function(x,y)
   {
     for(j in 1: length(x))
     {
-      z[i,j] = cos(x[j]) + cos(y[i])
+      z[i,j] = exp(-x[j] + -y[i])
     }
   }
   z
