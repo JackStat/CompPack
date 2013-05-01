@@ -3,10 +3,10 @@ Type: Package
 Title: Collection of Computational Statistic Tools
 Version: 1.0
 Date: 2013-04-10
-Author: Tyler Hunt <tyler@psychoanalytix.com>
-Katie Dodds <k.dodds@utah.edu>
-Ernest Chan <faiernest418@gmail.com>
-Damon McCafferty <damon.mccafferty@economics.utah.edu>
+Author: Tyler Hunt tyler@psychoanalytix.com
+Katie Dodds k.dodds@utah.edu
+Ernest Chan faiernest418@gmail.com
+Damon McCafferty damon.mccafferty@economics.utah.edu
 Maintainer: Tyler Hunt <tyler@psychoanalytix.com>
 Description: The functions in this package were developed in a computational
     statistics course taught at the University of Utah.
