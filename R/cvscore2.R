@@ -1,4 +1,4 @@
-#' cvscore2
+#' Cross Validation-Quadratic Model
 #'
 #' @description  Uses cross-validation to score how accurately a quadratic model will perform when used in prediction. Score can be compared to that of cvscore1,...,cvscore5.
 #'
