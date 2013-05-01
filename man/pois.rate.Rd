@@ -1,6 +1,6 @@
 \name{pois.rate}
 \alias{pois.rate}
-\title{pois.rate}
+\title{Average Time Between Events in a Poisson Process}
 \usage{
   pois.rate(time, r, n = 1000, a, b)
 }
