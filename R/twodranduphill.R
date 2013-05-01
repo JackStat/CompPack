@@ -1,4 +1,4 @@
-#' twodranduphill
+#' uphill search on matrix function
 #' 
 #' @description
 #' This function is use to do a random uphill search on any 2 demision data set

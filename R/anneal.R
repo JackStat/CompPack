@@ -1,4 +1,4 @@
-#' anneal
+#' uphill search on fucntion
 #' 
 #' @description
 #' General anneal function, where we conduct a uphill search on the function to find maximum

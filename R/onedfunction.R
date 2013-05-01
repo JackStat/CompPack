@@ -1,4 +1,4 @@
-#' onedfunction
+#' x^4 + x^2
 #' 
 #' @description
 #' function to generate x^4 + x^2
