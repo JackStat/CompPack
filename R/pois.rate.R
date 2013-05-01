@@ -1,4 +1,4 @@
-#' pois.rate
+#' Average Time Between Events in a Poisson Process
 #'
 #' @description Averages the time between any two events in a Poisson procces
 #'
