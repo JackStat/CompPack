@@ -1,6 +1,6 @@
 \name{twodfunction}
 \alias{twodfunction}
-\title{cos(x) + cos(y)}
+\title{exp(-(x+y))}
 \usage{
   twodfunction(x, y)
 }
@@ -10,7 +10,7 @@
   \item{y}{vector of value}
 }
 \description{
-  Generate cos(x) + cos(y) maxtrix
+  Generate exp(-(x+y) maxtrix
 }
 \examples{
 twodfunction(1,1)

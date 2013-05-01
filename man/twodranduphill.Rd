@@ -23,7 +23,7 @@
   2 demision data set
 }
 \examples{
-#twodranduphill(twodfunction, 1, .4, 1, 100, 10)
+twodranduphill(twodfunction, 3, 2, 1, 10, 1)
 }
 \author{
   Ernest Chan \email{faiernest418@gmail.com}
