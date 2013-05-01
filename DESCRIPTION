@@ -42,3 +42,4 @@ Collate:
     'twodranduphill.R'
     'mixlike.R'
     'f.models.R'
+    'cvscore.R'

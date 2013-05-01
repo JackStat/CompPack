@@ -1,6 +1,7 @@
 export(Bootstrap)
 export(anneal)
 export(around)
+export(cvscore)
 export(d1f)
 export(df)
 export(em.mixnorm)
