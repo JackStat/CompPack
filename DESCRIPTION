@@ -13,7 +13,6 @@ License: MIT
 Collate:
     'anneal.R'
     'around.R'
-    'bootstrap.R'
     'cvscore.R'
     'cvscore1.R'
     'cvscore2.R'
