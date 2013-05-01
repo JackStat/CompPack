@@ -3,15 +3,15 @@
 #' @description
 #' General anneal function, where we conduct a uphill search on the function to find maximum
 #' 
-#' @param f function vector to find the maximum
+#' @param f function to find the maximum
 #' @param mu starting point
 #' @param n number of iterations
 #' @param sig size of steps
 #' @param tt temperature
 #' @param g rate of temperature
 #' 
-#' @example
-#' anneal()
+#' @examples
+#' anneal(sin, 0, 100, 1, 10, .99)
 #' @author Ernest Chan \email{faiernest418@@gmail.com}
 #' 
 #' @export

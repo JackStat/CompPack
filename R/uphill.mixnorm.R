@@ -2,20 +2,20 @@
 #' @description
 #' This function is use for conducting a uphill search on the mixture of normal distribution
 #' 
-#' @param x
-#' @param k
-#' @param n
-#' @param t
+#' @param x is the function of the mixture
+#' @param k is the number of mixture
+#' @param n is the number of iteration
+#' @param t is the temperature
 #' 
-#' @example
-#' something
+#' @examples
+#' uphill.mixnorm(mixnorm(100, c(.50, .15, .35), c(-3, 0, 3), c(3,3,3)), 4, 1000, 10)
 #' 
 #' @author Ernest Chan \email{faiernest418@@gmail.com}
 #' 
 #' @export
 
 
-uphill.mixnorm = function(x, k, n = 10000, t = 100)
+uphill.mixnorm = function(x, k, n = 1000, t = 100)
 {
 	p = rep(1/k, k)
 	mnx = min(x)

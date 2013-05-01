@@ -1,23 +1,25 @@
-#' Generate a Poisson Process
-#' 
-#' @description
-#' Generates a Poisson Process.
-#' 
-#' @param end the end time desired.
-#' @param rate the rate of occurrence.
-#' 
-#' @author Tyler Hunt \email{tyler@@psychoanalytix.com} 
-#' 
-#' @results cumsum the cumulative sum of the vector of a poisson process.
-#' 
-#' @examples pois.proc(200, 1)
+#' pois.proc
+#'
+#' @description Simulates a Poisson process of specified length and rate. The output is the time at which each event occured.
+#'
+#' @param time is the total time.
+#' @param r is the average number of events.
+#'
+#' @author Katie Dodds \email{k.dodds@@utah.edu}
+#'
+#' @examples
+#'
+#' pois.proc(100,5)
+#'
 #' @export
 
-pois.proc <- function(end=200, rate=1){
-  mm<-c()
-  while(sum(mm)<end){
-    val<-rand.exp(1, rate)
-    mm<-c(mm, val)
-  }
-  cumsum(mm[-length(mm)])
+pois.proc=
+function(time,r){
+	t=0
+	x=0
+	while(t<time){
+		t=t+rexp(1,r)
+		x=c(x,t)
+	}
+	x
 }

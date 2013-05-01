@@ -6,16 +6,16 @@
 }
 \arguments{
   \item{n}{number of observations. If \eqn{length(n) > 1},
-  the length is taken to be the number required}
+  the length is taken to be the number required.}
 
-  \item{p}{vector of probabilities}
+  \item{p}{vector of probabilities.}
 
-  \item{mu}{vector of means}
+  \item{mu}{vector of means.}
 
-  \item{sd}{vector of standard deviations}
+  \item{sd}{vector of standard deviations.}
 }
 \description{
-  Create a Mixture of Normal Distributions
+  Creates a mixture of normal distributions.
 }
 \examples{
 x = mixnorm(100, c(.50, .15, .35), c(-3, 0, 3), c(3,3,3))

@@ -5,14 +5,15 @@
   rand.norm(n, mean, sd)
 }
 \arguments{
-  \item{n}{Number of observations}
+  \item{n}{Number of observations.}
 
-  \item{mean}{vector of means}
+  \item{mean}{vector of means.}
 
-  \item{sd}{vector of standard deviations}
+  \item{sd}{vector of standard deviations.}
 }
 \description{
-  Generate Random Normal Variables
+  Generates pseudo random variables from a normal
+  distribution using the Wichmannhill.
 }
 \author{
   Tyler Hunt \email{tyler@psychoanalytix.com}

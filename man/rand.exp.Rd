@@ -10,7 +10,8 @@
   \item{rate}{vector of rates}
 }
 \description{
-  Generate Random Exponential Variables
+  Generates a pseudo-random exponential variable using the
+  Whichman-Hill pseudo-random number generator function
 }
 \author{
   Tyler Hunt \email{tyler@psychoanalytix.com}
