@@ -11,7 +11,7 @@
 #' @param t is the tempearture, where its default at 100
 #' 
 #' @examples
-#' #twodranduphill(matrix(c(1,2,3,4,5,6,7,8,9,10,.1,.2,5,3,7,6), ncol = 4), 1, .4, 1, 100, 10)
+#' twodranduphill(twodfunction, 1, .4, 1, 100, 10)
 #' 
 #' @author Ernest Chan \email{faiernest418@@gmail.com}
 #' 
