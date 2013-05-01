@@ -1,4 +1,4 @@
-#' twodfunction
+#' cos(x) + cos(y)
 #' 
 #' @description 
 #' Generate cos(x) + cos(y) maxtrix
