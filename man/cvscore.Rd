@@ -1,6 +1,6 @@
 \name{cvscore}
 \alias{cvscore}
-\title{cvscore}
+\title{Cross Validation}
 \usage{
   cvscore(x, y)
 }

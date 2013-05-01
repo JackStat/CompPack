@@ -1,6 +1,6 @@
 \name{cvscore4}
 \alias{cvscore4}
-\title{cvscore4}
+\title{Cross Validation-4th Degree Polynomial}
 \usage{
   cvscore4(x, y)
 }

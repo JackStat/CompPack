@@ -1,6 +1,6 @@
 \name{twodfunction}
 \alias{twodfunction}
-\title{twodfunction}
+\title{cos(x) + cos(y)}
 \usage{
   twodfunction(x, y)
 }

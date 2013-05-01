@@ -1,6 +1,6 @@
 \name{cvscore3}
 \alias{cvscore3}
-\title{cvscore3}
+\title{Cross Validation-Cubic Model}
 \usage{
   cvscore3(x, y)
 }

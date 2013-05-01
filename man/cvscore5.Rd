@@ -1,6 +1,6 @@
 \name{cvscore5}
 \alias{cvscore5}
-\title{cvscore5}
+\title{Cross Validation-5th Degree Polynomial}
 \usage{
   cvscore5(x, y)
 }

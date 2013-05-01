@@ -1,6 +1,6 @@
 \name{onedfunction}
 \alias{onedfunction}
-\title{onedfunction}
+\title{x^4 + x^2}
 \usage{
   onedfunction(x)
 }

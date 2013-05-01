@@ -1,6 +1,6 @@
 \name{anneal}
 \alias{anneal}
-\title{anneal}
+\title{uphill search on fucntion}
 \usage{
   anneal(f, mu, n = 1000, sig = 1, tt = 10, g = 0.999)
 }
@@ -22,7 +22,7 @@
   on the function to find maximum
 }
 \examples{
-#anneal(sin, 0, 100, 1, 10, .99)
+anneal(onedfunction, 2, 100, 1, 10, .99)
 }
 \author{
   Ernest Chan \email{faiernest418@gmail.com}

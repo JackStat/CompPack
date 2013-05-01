@@ -1,6 +1,6 @@
 \name{twodranduphill}
 \alias{twodranduphill}
-\title{twodranduphill}
+\title{uphill search on matrix function}
 \usage{
   twodranduphill(f, x, y, s, n = 100, t = 100)
 }
@@ -23,7 +23,7 @@
   2 demision data set
 }
 \examples{
-#twodranduphill(matrix(c(1,2,3,4,5,6,7,8,9,10,.1,.2,5,3,7,6), ncol = 4), 1, .4, 1, 100, 10)
+#twodranduphill(twodfunction, 1, .4, 1, 100, 10)
 }
 \author{
   Ernest Chan \email{faiernest418@gmail.com}
