@@ -10,10 +10,10 @@
 #' twodfunction(1,1)
 #' 
 #' @author Ernest Chan \email{faiernest@@gmail.com}
-#' 
+#' @export
 twodfunction = function(x,y)
 {
-  z = matrix(0, nrow=length(x), nocol=length(y))
+  z = matrix(0, nrow=length(x), ncol=length(y))
   for(i in 1:length(y))
   {
     for(j in 1: length(x))
