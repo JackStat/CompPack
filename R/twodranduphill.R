@@ -11,7 +11,7 @@
 #' @param t is the tempearture, where its default at 100
 #' 
 #' @examples
-#' #twodranduphill(twodfunction, 1, .4, 1, 100, 10)
+#' twodranduphill(twodfunction, 1, .4, 1, 100, 10)
 #' 
 #' @author Ernest Chan \email{faiernest418@@gmail.com}
 #' 
