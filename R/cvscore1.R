@@ -1,4 +1,4 @@
-#' cvscore1
+#' Cross Validation-Linear Model
 #'
 #' @description Uses cross-validation to score how accurately a linear model will perform when used in prediction. Score can be compared to that of cvscore2,...,cvscore5.
 #'
