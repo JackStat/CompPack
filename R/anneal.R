@@ -11,7 +11,7 @@
 #' @param g rate of temperature
 #' 
 #' @examples
-#' anneal(onedfunction, 0, 100, 1, 10, .99)
+#' anneal(onedfunction, 2, 100, 1, 10, .99)
 #' @author Ernest Chan \email{faiernest418@@gmail.com}
 #' 
 #' @export
