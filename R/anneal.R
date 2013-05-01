@@ -10,8 +10,8 @@
 #' @param tt temperature
 #' @param g rate of temperature
 #' 
-#' @example
-#' anneal(rnorm(1000,5,1), -20, 100, 1, 10, .99)
+#' @examples
+#' #anneal(, -20, 100, 1, 10, .99)
 #' @author Ernest Chan \email{faiernest418@@gmail.com}
 #' 
 #' @export

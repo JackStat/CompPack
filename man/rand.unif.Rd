@@ -12,7 +12,8 @@
   \item{max}{upper limit of the distribution.}
 }
 \description{
-  Generate Random Uniform Variables
+  Generates pseudo-random variables from a Uniform
+  distribution, using the Wichmannhill.
 }
 \author{
   Tyler Hunt \email{tyler@psychoanalytix.com}

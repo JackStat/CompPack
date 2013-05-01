@@ -7,7 +7,7 @@
 #' @param n is the number of iteration
 #' @param t is the temperature
 #' 
-#' @example
+#' @examples
 #' uphill.mixnorm(mixnorm(100, c(.50, .15, .35), c(-3, 0, 3), c(3,3,3)), 4, 1000, 10)
 #' 
 #' @author Ernest Chan \email{faiernest418@@gmail.com}

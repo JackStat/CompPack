@@ -5,12 +5,15 @@
   mc(p, n)
 }
 \arguments{
-  \item{p}{Probability matrix}
+  \item{p}{Probability matrix.}
 
-  \item{n}{Number of observations}
+  \item{n}{Number of observations.}
+}
+\value{
+  x values of observations.
 }
 \description{
-  Generate Markov Chains
+  Generates a Markov Chain.
 }
 \examples{
 A<-matrix(c(.9,.8,0,0,.1,.2,0,0,0,0,.5,.6,0,0,.5,.4), nrow=4)

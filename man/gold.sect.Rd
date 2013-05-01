@@ -19,7 +19,10 @@
   f(a) function value at the optimal value
 }
 \description{
-  Golden Section Search Optimization
+  A method used for locating the optimum value of a
+  function. The technique utilizes the golden ratio to
+  successively narrow the range of values for which the
+  optimum is found.
 }
 \examples{
 gold.sect(sin, 1/2, pi/2)

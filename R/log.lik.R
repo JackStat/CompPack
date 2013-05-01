@@ -1,7 +1,7 @@
-#' Find the logliklihood of a normal distribution
+#' Find the log likelihood of a normal distribution
 #' 
 #' @description 
-#' Find the logliklihood of a normal distribution.
+#' Find the log likelihood of a normal distribution.
 #' 
 #' @param x data.
 #' @param mu estimated mean.
@@ -19,7 +19,8 @@
 
 log.lik<-function(x=data, mu, var)
 {
-  ll = -n/2* log(2*pi*var) - .5/var*sum((mu-y)^2)
+  n=length(x)
+  ll = -n/2* log(2*pi*var) - .5/var*sum((mu-x)^2)
   
   -ll
 }
