@@ -1,4 +1,4 @@
-#' cvscore3
+#' Cross Validation-Cubic Model
 #'
 #' @description Uses cross-validation to score how accurately a cubic model will perform when used in prediction. Score can be compared to that of cvscore1,...,cvscore5.
 #'

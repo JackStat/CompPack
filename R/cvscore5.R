@@ -1,4 +1,4 @@
-#' cvscore5
+#' Cross Validation-5th Degree Polynomial
 #'
 #' @description Uses cross-validation to score how accurately a model using a 5th degree polynomial will perform when used in prediction. Score can be compared to that of cvscore1,...,cvscore4.
 #'
