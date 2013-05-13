@@ -88,9 +88,12 @@
   on the function to find maximum
 }
 \author{
-  Tyler Hunt \email{tyler@psychoanalytix.com} \\
-  Damon McCafferty \email{damon.mccafferty@economics.utah.edu}\\
-  Katie Dodds \email{k.dodds@utah.edu}\\
+  Tyler Hunt \email{tyler@psychoanalytix.com} 
+  
+  Damon McCafferty \email{damon.mccafferty@economics.utah.edu}
+  
+  Katie Dodds \email{k.dodds@utah.edu}
+  
   Ernest Chan \email{faiernest418@gmail.com}
 }
 
