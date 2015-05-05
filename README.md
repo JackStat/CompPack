@@ -1,5 +1,8 @@
-CompPack A collection of computational statistic functions
-========================================================
+# CompPack A collection of computational statistic functions
+
+[![Travis-CI Build Status](https://travis-ci.org/JackStat/CompPack.png?branch=master)](https://travis-ci.org/JackStat/CompPack)
+
+
 The functions for this package were developed from a class taken at the University of Utah taught by Alun Thomas.
 
 
